@@ -1,0 +1,505 @@
+*{
+    margin: 0px;
+    
+    
+
+}
+body{
+    overflow-x: hidden;
+}
+
+#header{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 5%;
+    background: rgba(0,0,0,0,1);
+    backdrop-filter: blur(50px);
+    z-index: 1;
+    background-color: rgb(143, 65, 78);
+    
+    height: 100px;
+    margin-top: 0px;
+}
+a{
+    color: white;
+    justify-content: space-between;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+#logoimg{
+    
+    text-decoration: none;
+    color: white;
+    
+    height: 100px;
+    width: 100px;
+    margin-top: -10px;
+}
+#check{
+    display: none;
+}
+.icons{
+    font-size: 30px;
+    color: pink;
+    font-weight: 600;
+    cursor: pointer;
+    display: none;
+    
+    
+}
+#mainhead{
+    background: url("./images/img2.webp");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -160px;
+    
+
+}
+
+#fine{
+    align-items: center;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 150px;
+    font-size: 30px;
+    color: white;
+    padding-top: 200px;
+}
+#gift{
+    align-items: center;
+    text-align: center;
+    margin-left: 870px;
+    font-size: 70px;
+    color: white;
+    
+}
+#someone{
+    align-items: center;
+    text-align: center;
+    margin-left: 990px;
+    font-size: 70px;
+    color: white;
+}
+#homepara{
+    align-items: center;
+    text-align: center;
+    margin-left: 1000px;
+    font-size: 20px;
+    color: white;
+}
+.homebu1{
+    margin-left: 1140px;
+    margin-top: 90px;
+    align-items: center;
+    
+
+    
+
+}
+.homebu2{
+   
+   
+
+  
+}
+#collect1{
+    background: url("https://www.ijewels.co.in/cdn/shop/files/E2895_5_800x.jpg?v=1713964660");
+    height: 400px;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 60px;
+    margin-right: 90px;
+    background-size: cover;
+    
+    
+}
+#popular{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 50px;
+}
+#collect2{
+   background: url("https://5.imimg.com/data5/SELLER/Default/2024/3/404968384/LC/FO/OG/144279457/lab-grown-diamond-necklace.jpg");
+    height: 400px;
+    width: 400px;
+    margin-left: 500px;
+    margin-right: 800px;
+    margin-top: -400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#collect3{
+  background: url("https://5.imimg.com/data5/SELLER/Default/2022/8/FO/XL/JO/132128793/slbrc130-500x500.jpg");
+    height: 400px;
+    width: 400px;
+    margin-left: 950px;
+    margin-top: -400px;
+    background-size: cover;
+    
+}
+#collect4{
+   background: url("https://i0.wp.com/www.satvagold.com/admin/uploads/2024/08/06/202408060235021544827556.JPG?w=1280");
+    height: 400px;
+    width: 400px;
+    margin-left: 1400px;
+    margin-top: -400px;
+    background-size: cover;
+    
+}
+#watchhead{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
+#watches{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: auto auto ;
+ }
+ #a{
+    background: url("https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/27/2207852/1.jpg?3966");
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+ }
+ #b{
+    height: 400px;
+    width: 700px;
+ }
+ #b p{
+    margin-top: 200px;
+ }
+ #c{
+    background: url("https://image.made-in-china.com/2f0j00TNSlDpPhhkbI/Diamond-Women-Watch-Luxury-Brand-2022-Rhinestone-Elegant-Ladies-Watches.webp");
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+ }
+ 
+ #e{
+    background: url("https://img.ws.mms.shopee.com.my/cea2ae2bef88ed651a2fb1b13e87fba8");
+    height: 400px;
+    width: 400px;
+    margin-left: 150px;
+    background-size: cover;
+ }
+ #about1{
+    width: 400px;
+    margin-top: 100px;
+    height: 350px;
+    margin-left: 100px;
+ }
+ #aboutneckhead{
+    text-align: center;
+    margin-top: -350px;
+    margin-right: 300px;
+    font-size: 40px;
+    color: rgb(164, 65, 82);;
+ }
+ #neckpara{
+    margin-left: 630px;
+    margin-top: 50px;
+    margin-right: 400px;
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgb(164, 65, 82);;
+ }
+ #about2{
+    margin-top: 150px;
+    width: 400px;
+    height: 350px;
+    margin-left: 1400px;
+    
+ }
+ #aboutringhead{
+    margin-top: -310px;
+    margin-left: 200px;
+    font-size: 40px;
+    color: rgb(164, 65, 82);;
+ }
+ #ringpara{
+    margin-left: 200px;
+    margin-top: 50px;
+    line-height: 1.8;
+    font-size: 20px;
+    color: rgb(164, 65, 82);;
+ }
+ #about3{
+    width: 400px;
+    margin-top: 100px;
+    height: 350px;
+    margin-left: 100px;
+ }
+ #aboutearhead{
+    text-align: center;
+    margin-top: -350px;
+    margin-right: 300px;
+    font-size: 40px;
+    color: rgb(164, 65, 82);
+ }
+ #earpara{
+    margin-left: 630px;
+    margin-top: 50px;
+    margin-right: 400px;
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgb(164, 65, 82);
+ }
+ #about4{
+    margin-top: 150px;
+    width: 400px;
+    height: 350px;
+    margin-left: 1400px;
+ }
+ #aboutbracehead{
+    margin-top: -310px;
+    margin-left: 200px;
+    font-size: 40px;
+    color: rgb(164, 65, 82);
+ }
+ #bracepara{
+    margin-left: 200px;
+    margin-top: 50px;
+    line-height: 1.8;
+    font-size: 20px;
+    color:rgb(164, 65, 82);
+ }
+ .contact{
+    background-color: pink;
+    height: 400px;
+    margin-top: 80px;
+ }
+ 
+
+@media(max-width:760px){
+     .icons{
+        display: flex;
+        margin-right: 100px;
+
+     }
+     #closeicon{
+        display: none;
+     }
+     #check:checked~.icons #menuicon{
+        display: none;
+        margin-right:70px;
+    }
+    #check:checked~.icons #closeicon{
+        display: block;
+    }
+    #check:checked~.navbar{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        background-color: pink;
+        width: 100%;
+        left: 0%;
+        display: none;
+        margin-left: 30px;
+
+     }
+     .navbar a{
+        display: block;
+        text-align: center;
+        margin: 20px 20px;
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+     }
+
+     #about1{
+        width: 400px;
+        margin-top: 100px;
+        height: 350px;
+        margin-left: 00px;
+     }
+     #aboutneckhead{
+        text-align: center;
+        margin-top: 40px;
+        margin-right: 300px;
+        font-size: 40px;
+        color: rgb(164, 65, 82);;
+     }
+     #neckpara{
+        margin-left: -40px;
+        margin-top: 40px;
+        margin-right: 300px;
+        font-size: 20px;
+        line-height: 1.8;
+        color: rgb(164, 65, 82);;
+     }
+     #about2{
+        margin-top: 150px;
+        width: 400px;
+        height: 350px;
+        margin-left: 00px;
+        
+     }
+     #aboutringhead{
+        margin-top: 20px;
+        margin-left: 00px;
+        font-size: 40px;
+        color: rgb(164, 65, 82);
+        
+     }
+     #ringpara{
+        margin-left: 10px;
+        margin-top: 50px;
+        line-height: 1.8;
+        font-size: 20px;
+        color: rgb(164, 65, 82);;
+     }
+     #about3{
+        width: 400px;
+        margin-top: 100px;
+        height: 350px;
+        margin-left: 0px;
+     }
+     #aboutearhead{
+        text-align: center;
+        margin-top: 30px;
+        margin-right: 300px;
+        font-size: 40px;
+        color: rgb(164, 65, 82);
+     }
+     #earpara{
+        margin-left: 10px;
+        margin-top: 50px;
+        margin-right: 400px;
+        font-size: 20px;
+        line-height: 1.8;
+        color: rgb(164, 65, 82);
+     }
+     #about4{
+        margin-top: px;
+        width: 400px;
+        height: 350px;
+        margin-left: 0px;
+     }
+     #aboutbracehead{
+        margin-top: 50px;
+        margin-left: 0px;
+        font-size: 40px;
+        color: rgb(164, 65, 82);
+     }
+     #bracepara{
+        margin-left: 0px;
+        margin-top: 50px;
+        line-height: 1.8;
+        font-size: 20px;
+        color:rgb(164, 65, 82);
+     }
+     footer{
+        margin-left: 10px;
+     }
+     #collect1{
+        background: url("https://www.ijewels.co.in/cdn/shop/files/E2895_5_800x.jpg?v=1713964660");
+        height: 400px;
+        width: 400px;
+        margin-top: 150px;
+        margin-left: 0px;
+        margin-right: 10px;
+        background-size: cover;
+        
+        
+    }
+    #collect2{
+     background: url("https://5.imimg.com/data5/SELLER/Default/2024/3/404968384/LC/FO/OG/144279457/lab-grown-diamond-necklace.jpg");
+      height: 400px;
+      width: 400px;
+      margin-left: 0px;
+      margin-right: 00px;
+      margin-top: 50px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+  }
+  #collect3{
+     background: url("https://5.imimg.com/data5/SELLER/Default/2022/8/FO/XL/JO/132128793/slbrc130-500x500.jpg");
+       height: 400px;
+       width: 400px;
+       margin-left: 0px;
+       margin-top: 50px;
+       background-size: cover;
+       
+   }
+   #collect4{
+     background: url("https://i0.wp.com/www.satvagold.com/admin/uploads/2024/08/06/202408060235021544827556.JPG?w=1280");
+      height: 400px;
+      width: 400px;
+      margin-left: 0px;
+      margin-top: 50px;
+      background-size: cover;
+      
+  }
+  #watches{
+     display: block;
+  }
+  .contact{
+     background-color: pink;
+     height: 400px;
+     margin-top: 80px;
+     font-size: 15px;
+  }
+  #fine{
+     align-items: center;
+     text-align: center;
+     margin-left: 10px;
+     margin-top: -15px;
+     font-size: 30px;
+     color: white;
+     margin-right: 530px;
+  }
+  #gift{
+     align-items: center;
+     text-align: center;
+     margin-left: 10px;
+     font-size: 30px;
+     color: white;
+     margin-right: 530px;
+     
+  }
+  #someone{
+     align-items: center;
+     text-align: center;
+     margin-left: 10px;
+     font-size: 30px;
+     color: white;
+     margin-right: 530px;
+  }
+  #homepara{
+     align-items: center;
+     text-align: center;
+     margin-left: 10px;
+     font-size: 8px;
+     color: white;
+     margin-right: 530px;
+     
+  }
+  .homebu1{
+     margin-left: 10px;
+     margin-top: -100px;
+     margin-bottom: 40px;
+     font-size: 10px;
+     
+  
+  }
+  .homebu2{
+     margin-left: 10px;
+     font-size: 10px;
+     
+}
+
+
+
+}
